@@ -1,0 +1,104 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+/* Header and Nav Style */
+.header-stl{
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    margin-left: 25px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    color: #181818;
+    
+}
+.text-primary{
+    color: #FD6E0A;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 230px;
+}
+nav li{
+    list-style: none; 
+    margin-right: 50px;   
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+.button-primary{
+    background-color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 18px 35px 18px 35px;
+    border: none;
+    border-radius: 5px;
+}
+/* Banner */
+.banner{
+    margin-top: 0px;
+    margin-left: 230px;
+    display: flex;
+    align-items: center;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+}
+.banner-subtitle{
+    font-weight: 600;
+    font-size: 45px;
+}
+.banner-desc{
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+/* Main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    background-color: #FFF8F3;
+}
+/* About Me */
+.aboutme{
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+.sec-tit{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.sec-desc{
+    color:#757575;
+    margin-bottom: 60px;
+}
+.aboutinfocon{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutinfo{
+}
+.infotit{
+    color: #757575;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.infodesc{
+    font-weight: 700;
+    font-size: 20px;
+}
